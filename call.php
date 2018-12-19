@@ -104,7 +104,7 @@ class prankCall{
 	}
 }
 echo "#################################\n# Copyright : @xptra | SGB-Team #\n#################################\n";
-echo "Recoded By : Yahya Hamid\n";
+echo "Pengepul kode By : Yahya Hamid\n";
 echo "Nulis Bahasa php aja gabisa yahya tolol anj\n";
 echo "Formatnya 628xxxxx yaaa\n";
 echo "?Number			";
