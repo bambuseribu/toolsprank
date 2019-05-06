@@ -29,7 +29,7 @@ whatsAppText(message);
 6. lalu enter
 7. lalu masukan script di bawah ini lagi untuk spam nya
 
-spam("My Message", 10);
+spam("opo o? pingiin mancani aku tah? SADAR DIRI-Rico", 10);
 
 8. lalu enter
 9. done
