@@ -1,0 +1,38 @@
+Cewekmu suka baper kalo di spam wa? 
+Waktunya bersinar kawan 😎
+
+Script Spam WA 
+1. Buka web.whatsapp.com
+2. login
+3. open chat yg mw di spam 
+4. tekan f12 dan klik console
+5. copy script di bawah ini dan paste di console tadi
+
+function whatsAppText(message) {
+window.InputEvent = window.Event || window.InputEvent;
+var event = new InputEvent('input', {bubbles: true});
+var textbox = document.getElementsByClassName('_2S1VP')[0];
+textbox.textContent = message;
+textbox.dispatchEvent(event);
+document.querySelector('[data-icon="send"]').click();
+}
+function spam(message, loop) {
+var delay = 1000; // 1 second
+
+for (var i = 0; i < loop; i++){
+window.setTimeout(function(){
+whatsAppText(message);
+}, delay*i);
+}
+}
+
+6. lalu enter
+7. lalu masukan script di bawah ini lagi untuk spam nya
+
+spam("My Message", 10);
+
+8. lalu enter
+9. done
+NB: 
+My Message = pesanmu
+10 = jumlah pesanmu
